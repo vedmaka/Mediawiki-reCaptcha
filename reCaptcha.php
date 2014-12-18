@@ -6,7 +6,7 @@
  * Time: 23:10
  */
 
-$_GLOBALS['wgExtensionCredits']['other'] = array(
+$_GLOBALS['wgExtensionCredits']['extension'][] = array(
 	'path' => __FILE__,
 	'name' => 'reCaptcha',
 	'author' => array( 'Vedmaka' ),
