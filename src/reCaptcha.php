@@ -24,8 +24,9 @@ class reCaptcha {
 			'url' => 'https://www.mediawiki.org/wiki/Extension:reCaptcha'
 		);
 
-		$GLOBALS['wgReCaptchaKey'] = '6LcRrP4SAAAAACtctRzBwqtlR412aZT3y-o0zWLv';
-		$GLOBALS['wgReCaptchaSecret'] = '6LcRrP4SAAAAAI3HaHKJn7S7oB7ZVh9MGUM8cPkh';
+		//Configuration variables
+		$GLOBALS['wgReCaptchaKey'] = '';
+		$GLOBALS['wgReCaptchaSecret'] = '';
 
 		$hooksHandler = new reCaptchaHooks();
 

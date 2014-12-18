@@ -81,6 +81,11 @@ class reCaptchaHooks {
 	{
 		global $wgOut, $wgReCaptchaKey;
 
+		if( !$wgReCaptchaKey ) {
+			//In case owner forgot to setup keys we bypass all checks
+			return '';
+		}
+
 		$wgOut->addHeadItem('recaptcha',"<script src='https://www.google.com/recaptcha/api.js'></script>");
 
 		$html = "<div style='padding: 10px 0 10px 0;' class='recaptcha'>" .
@@ -93,6 +98,11 @@ class reCaptchaHooks {
 	private function testResponse($response = '')
 	{
 		global $wgReCaptchaSecret, $wgRequest;
+
+		if( !$wgReCaptchaSecret ) {
+			//In case owner forgot to setup keys we bypass all checks
+			return true;
+		}
 
 		if( !$response ) {
 			$response = $wgRequest->getVal('g-recaptcha-response');
