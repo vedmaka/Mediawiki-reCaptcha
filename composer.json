@@ -1,7 +1,7 @@
 {
   "name": "mediawiki/recaptcha",
   "type": "mediawiki-extension",
-  "description": "Google reCaptcha integration for Mediawiki.",
+  "description": "Google reCaptcha integration for Mediawiki",
   "homepage": "http://www.mediawiki.org/wiki/Extension:reCaptcha",
   "license" : "GPL-2.0+",
   "keywords": ["captcha", "reCaptcha", "spam", "protection", "bots"],
