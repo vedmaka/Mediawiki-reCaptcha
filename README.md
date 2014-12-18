@@ -22,26 +22,13 @@ extension.
 
 ##### Step 1
 
-If you have MediaWiki 1.22 or later, go to the root directory of your MediaWiki installation,
-and go to step 2. You do not need to install any extensions to support composer!
-
-For MediaWiki 1.21.x and earlier you need to install the
-[Extension Installer](https://github.com/JeroenDeDauw/ExtensionInstaller/blob/master/README.md) extension.
-
-Once you are done installing the Extension Installer, go to its directory so composer.phar
-is installed in the right place.
-
-    cd extensions/ExtensionInstaller
-
-##### Step 2
-
-If you have previously installed Composer skip to step 3.
+If you have previously installed Composer skip to step 2.
 
 To install Composer:
 
     wget http://getcomposer.org/composer.phar
 
-##### Step 3
+##### Step 2
     
 Now using Composer, install reCaptcha.
 
