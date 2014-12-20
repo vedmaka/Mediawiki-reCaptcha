@@ -1,3 +1,10 @@
 {
-  "recaptcha-failed": "Failed to bypass robots check."
+    "@metadata": {
+        "authors": [
+            "Vedmaka",
+            "Kghbln"
+        ]
+    },
+    "recaptcha-desc": "Provides Google reCaptcha integration",
+    "recaptcha-failed": "Failed to bypass robots check"
 }
