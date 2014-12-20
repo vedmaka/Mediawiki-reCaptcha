@@ -1,3 +1,10 @@
 {
-  "recaptcha-failed": "Describe result when captcha check was failed"
+    "@metadata": {
+        "authors": [
+            "Vedmaka",
+            "Kghbln"
+        ]
+    },
+    "recaptcha-desc": "{{desc|name=reCaptcha|url=https://www.mediawiki.org/wiki/Extension:ReCaptcha}}",
+    "recaptcha-failed": "Informatory message about a failed check"
 }
