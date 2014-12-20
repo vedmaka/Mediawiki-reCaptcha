@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kghbln"
+        ]
+    },
+    "recaptcha-desc": "Ermöglicht die Nutzung von Googles reCAPTCHA zum Schutz vor Spam",
+    "recaptcha-failed": "Die Überprüfung ist negativ ausgefallen."
+}
