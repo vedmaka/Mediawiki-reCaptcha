@@ -45,7 +45,7 @@ Go to Special:Version and see if "reCaptcha" is listed there. If it is, you succ
 
 ## Configuration
 
-If you do not have any reCaptcha keys, you should go to reCaptcha site and receive own keys for your domain name.
+If you do not have any reCaptcha keys, you should go to [reCaptcha site](https://www.google.com/recaptcha) and receive own keys for your domain name.
 After this step, you should open LocalSettings.php file in your Mediawiki installation directory and add few lines to bottom of file:
 
     $wgReCaptchaKey = 'your-recaptcha-key';
