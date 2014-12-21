@@ -41,7 +41,7 @@ are using the ExtensionInstaller, the file to copy will be named example.json, r
 
 ##### Verify installation success
 
-Go to Special:Version and see if GitHub is listed there. If it is, you successfully installed it!
+Go to Special:Version and see if "reCaptcha" is listed there. If it is, you successfully installed it!
 
 ## Configuration
 
