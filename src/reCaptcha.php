@@ -16,12 +16,14 @@ class reCaptcha {
 		$GLOBALS['wgMessagesDirs']['Recaptcha'] = __DIR__ . '/../i18n';
 		$GLOBALS['wgMessagesDirs']['reCaptcha'] = __DIR__ . '/../i18n';
 
-		$GLOBALS['wgExtensionCredits']['other'][] = array(
+		$GLOBALS['wgExtensionCredits']['antispam'][] = array(
 			'path' => __FILE__,
 			'name' => 'reCaptcha',
 			'author' => array( 'Vedmaka' ),
 			'version' => '0.1',
-			'url' => 'https://www.mediawiki.org/wiki/Extension:reCaptcha'
+			'url' => 'https://www.mediawiki.org/wiki/Extension:reCaptcha',
+			'descriptionmsg' => 'recaptcha-desc',
+			'license-name' => 'GPL-2.0+'
 		);
 
 		//Configuration variables

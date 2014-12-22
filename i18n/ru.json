@@ -1,3 +1,10 @@
 {
-  "recaptcha-failed": "Проверка на роботов не удалась, попробуйте еще раз"
+    "@metadata": {
+        "authors": [
+            "Vedmaka",
+            "Kghbln"
+        ]
+    },
+    "recaptcha-desc": "Provides Google reCaptcha integration",
+    "recaptcha-failed": "Проверка на роботов не удалась, попробуйте еще раз"
 }
