@@ -50,6 +50,7 @@ After this step, you should open LocalSettings.php file in your Mediawiki instal
 
     $wgReCaptchaKey = 'your-recaptcha-key';
     $wgReCaptchaSecret = 'your-recaptcha-secret';
+    require_once( "$IP/extensions/Recaptcha/reCaptcha.php" );
     
 Where *your-recaptcha-key* and *your-recaptcha-secret* should be replaced with your actual values.
 
