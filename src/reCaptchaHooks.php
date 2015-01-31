@@ -86,7 +86,7 @@ class reCaptchaHooks {
 			return '';
 		}
 
-		$wgOut->addHeadItem('recaptcha',"<script src='https://www.google.com/recaptcha/api.js'></script>");
+		$wgOut->addHeadItem('recaptcha',"<script src='https://www.google.com/recaptcha/api.js' async defer></script>");
 
 		$html = "<div style='padding: 10px 0 10px 0;' class='recaptcha'>" .
 		        '<div class="g-recaptcha" data-sitekey="'.$wgReCaptchaKey.'"></div>' .
