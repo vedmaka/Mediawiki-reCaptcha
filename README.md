@@ -1,7 +1,5 @@
 ## reCaptcha extension for MediaWiki
 
-![reCaptcha extension for Mediawiki](https://upload.wikimedia.org/wikipedia/mediawiki/4/42/Extension_recaptcha_1.png)
-
 reCaptcha extension that simply integrate google new reCaptcha into Mediawiki.
 
 On Packagist:
