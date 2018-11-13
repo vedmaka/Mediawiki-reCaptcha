@@ -5,6 +5,7 @@ reCaptcha extension that simply integrate google new reCaptcha into Mediawiki.
 On Packagist:
 [![Latest Stable Version](https://poser.pugx.org/mediawiki/recaptcha/version.png)](https://packagist.org/packages/mediawiki/recaptcha)
 [![Latest Stable Version](https://poser.pugx.org/mediawiki/recaptcha/d/total.png)](https://packagist.org/packages/mediawiki/recaptcha)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvedmaka%2FMediawiki-reCaptcha.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvedmaka%2FMediawiki-reCaptcha?ref=badge_shield)
 
 ## Requirements
 
@@ -67,3 +68,7 @@ Also, this extension will ask users to fill captcha on page edit, **if user did 
 * [reCaptcha on Packagist](https://packagist.org/packages/mediawiki/recaptcha)
 * [reCaptcha on MediaWiki.org](https://www.mediawiki.org/wiki/Extension:reCaptcha)
 * [Latest version of the readme file](https://github.com/vedmaka/Mediawiki-reCaptcha/blob/master/README.md)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvedmaka%2FMediawiki-reCaptcha.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvedmaka%2FMediawiki-reCaptcha?ref=badge_large)
